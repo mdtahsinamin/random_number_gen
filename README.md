@@ -1,7 +1,22 @@
-# Custom Random Number Generator
 
-![Python Logo](python_logo.png)
+# # Custom Random Number Generator <br/>[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/) [![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)](https://pypi.org/project/numpy/) [![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white)](https://pypi.org/project/scipy/) [![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)](https://pypi.org/project/matplotlib/) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
+## Installations
+
+* **Python 3** can be downloaded from [here](https://www.python.org/downloads/). Make sure to check **Add Python 3.x to PATH** during installation.
+* **NumPy**, **SciPy**, and **matplotlib** **etc** libraries can be downloaded and installed using the commands:
+```bash
+pip install numpy
+pip install scipy
+pip install matplotlib
+pip install library-name
+```
+or if you have multiple python version installed use this
+```bash
+py -3.9 -m pip install numpy
+py -3.11 -m pip install numpy
+.....
+```
 ## Overview
 
 This project implements a custom random number generator that produces 5-digit integer random numbers. The generator is designed to pass various statistical tests, including Kolmogorov-Smirnov, Chi-Squared, Autocorrelation, and Poker tests. The goal is to create a custom random number generator that is comparable to Python's built-in `rand()` function.
